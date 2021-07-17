@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "github-wiki-extension",
+  "description": "Chrome extension for github wiki page.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "book16.png",
+    "48": "book48.png",
+    "128": "book128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*/*/wiki/_history"
+      ],
+      "js": [
+        "history.js"
+      ]
+    }
+  ]
+}
