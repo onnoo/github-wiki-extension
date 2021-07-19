@@ -10,3 +10,9 @@ document.querySelectorAll(".js-wiki-history-revision").forEach((elem, index) => 
     
     pTag.parentElement.replaceChild(aTag, pTag);
 });
+
+document.querySelectorAll("a[rel='nofollow']").forEach((elem, index) => {
+    elem.addEventListener("click", function () {
+        document.location.href = elem.href;
+    });
+});
