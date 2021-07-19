@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "github-wiki-extension",
   "description": "Chrome extension for github wiki page.",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "icons": {
     "16": "book16.png",
     "48": "book48.png",
