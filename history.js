@@ -1,6 +1,6 @@
 document.querySelectorAll(".js-wiki-history-revision").forEach((elem, index) => {
     var revision = elem.querySelector("div.text-mono").innerText;
-    var pTag = elem.querySelector("div p.color-text-primary");
+    var pTag = elem.querySelector("div p.color-fg-default");
     var aTag = document.createElement("a");
     aTag.innerText = pTag.innerText;
     aTag.classList.add("h5");
