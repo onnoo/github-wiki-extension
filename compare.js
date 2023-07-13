@@ -1,4 +1,4 @@
-var aTag = document.querySelector(".Link--primary");
+var aTag = document.querySelector(".file-info").querySelector(".Link--primary");
 var title = aTag.title.replace(".md", "");
 title = encodeURIComponent(title)
 var href = document.location.href;
